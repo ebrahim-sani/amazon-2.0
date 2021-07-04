@@ -53,14 +53,18 @@ function Header() {
       </div>
 
       {/* Buttom nav */}
-      <div className="flex items-center space-x-3 p-2 pl-6  bg-amazon_blue-light text-white">
+      <div className="flex items-center space-x-3 p-2 pl-6 sm:text-sm bg-amazon_blue-light text-white ">
         <p className="flex items-center link">
           <MenuIcon className="h-6 mr-1" /> All
         </p>
-        <p className="link">Prime Vide</p>
         <p className="link">Today's Deals</p>
-        <p className="link">Amazon Business</p>
-        <p className="hidden md:inline-flex link">Baby & Toys</p>
+        <p className="link">Customer Service</p>
+        <p className="link">Gift Cards</p>
+        <p className="link">Registry</p>
+        <p className="hidden link lg:inline-flex">Sell</p>
+        <p className="hidden lg:inline-flex link">Amazon Business</p>
+        <p className="hidden lg:inline-flex link">Prime Videos</p>
+        <p className="hidden lg:inline-flex link">Baby & Toys</p>
       </div>
     </header>
   );
